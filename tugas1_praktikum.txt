@@ -1,0 +1,51 @@
+NAMA		: SHELFIA ANATASYA DWI ARTHA
+NIM			: 0110124019
+ROMBEL		: SI 05
+PRAKTIKUM 1 : PEMROGRAMAN WEB 2
+
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+jawab : Dokumen Root adalah lokasi folder dimana tempat file website untuk nama domain disimpan
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori
+C:\xampp\htdocs ?
+jawab : Ya, dokumen root pada Apache web server pada XAMPP biasanya terletak di direktori C:\xampp\htdocs. Direktori ini disebut juga sebagai folder htdocs. Namun jika tidak menggunakan xampp tidak harus terletak dalam direktori C:\xampp\htdocs
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push
+dan checkout
+jawab : a) git init : Perintah ini digunakan untuk membuat repositori Git baru.
+		b) git clone 	: Perintah ini digunakan untuk menduplikasi repositori yang sudah ada ke dalam direktori lokal
+		c) git remote	: Perintah ini untuk mengelola repositori jarak jauh yang dapat menghubungkan, menghapus, dan melihat daftar repositori jarak jauh
+		d) git add 		: Perintah ini digunakan untuk menambahkan perubahan file ke dalam staging area sebelum melakukan commit.
+		e) git commit 	: Perintah ini digunakan untuk menyimpan perubahan yang telah ditambahkan ke staging area ke dalam repositori lokal
+		f) git push 	: Perintah ini digunakan untuk mengirimkan commit yang telah Anda buat di repositori lokal ke repositori jarak jauh
+		g) git checkout : Perintah ini digunakan untuk berganti cabang atau untuk mengembalikan file ke status tertentu. 
+ 
+4. Jelaskan perbedaan antara GitHub dan GitLab
+jawab : a) GitHub 
+		- fokus 	: Kerjasama dan perkembangan lunak
+		- hosting 	: berbasis cloud (berbayar)
+		- komunitas 	: besar dan aktif
+		- harga 	: proyek open source gratis dan dibayar untuk fitur
+		- CI/CD 	: tindakan github
+		b) GitLab
+		- fokus 	: platform DevOps
+		- fungsi 	: kompleks
+		- hosting	: cloud atau self terorganisir
+		- komunitas	: aktif dan pengembangan
+		- harga		: gratis fitu
+		- CI/CD 	: terintegrasi
+
+5. Apa bedanya variable user dengan variable system ?
+jawab : a) Variable User:
+		- Ditetapkan oleh pengguna untuk pengaturan khusus di level user.
+		- Hanya berlaku untuk akun pengguna tertentu.
+		- Contoh: Mengatur path atau preferensi aplikasi yang hanya relevan untuk satu pengguna.
+		b) Variable System:
+		- Ditetapkan oleh sistem atau administrator untuk seluruh sistem atau semua pengguna.
+		- Berlaku untuk seluruh pengguna di sistem.
+		- Mengatur path sistem atau konfigurasi perangkat keras yang diperlukan oleh semua aplikasi di sistem.
+
+6. Apa persamaan variable system dengan variable constant ?
+jawab : a) Variable System   : Variable System adalah variabel yang ditetapkan di tingkat sistem dan berlaku untuk semua pengguna, seperti pengaturan global 			       (misalnya PATH). Nilainya cenderung tetap, meskipun dapat diubah oleh administrator.
+		b) Variable Constant : variabel yang nilainya tetap dan tidak bisa diubah setelah ditentukan, seperti PI dalam matematika atau MAX_LENGTH dalam 			       pemrograman. Nilainya sudah tetap selama program berjalan.
+
