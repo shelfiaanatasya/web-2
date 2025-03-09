@@ -1,6 +1,5 @@
-<?php
+<?php 
 // buat variabel yang menerima value yang dikirim dari form
-
-//  LOGIKA  MENGHITUNG TOTAL HAARGA
-
-// mencetak belanjaan
+// LOGIKA MENGHITUNG TOTAL HARGA
+//  mencektak belanjaan
+?>
