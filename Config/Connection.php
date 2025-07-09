@@ -4,7 +4,7 @@
  * File ini akan digunakan untuk memanggil database
  */
 $host = "localhost";
-$dbname = "kegiatan_dosen";
+$dbname = "db_kegiatan_dosen";
 $username = "root";
 $password = "";
 
@@ -16,3 +16,4 @@ try {
 } catch (PDOException $e) {
     die("Koneksi gagal: " . $e->getMessage());
 }
+?>
